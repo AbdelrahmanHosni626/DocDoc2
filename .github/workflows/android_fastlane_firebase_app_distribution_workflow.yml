@@ -34,5 +34,5 @@
         - name: Build and Distribute App
           env:
             FIREBASE_CLI_TOKEN: ${{ secrets.FIREBASE_CLI_TOKEN }}
-          run: bundle exec fastlane firebase_distribution --verbose
+          run: bundle exec fastlane firebase_android_distribution
           working-directory: android
