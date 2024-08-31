@@ -65,4 +65,5 @@ class DefaultFirebaseOptions {
     storageBucket: 'docdoc-distribution.appspot.com',
     iosBundleId: 'com.DocDocApp.docdoc2',
   );
+
 }
